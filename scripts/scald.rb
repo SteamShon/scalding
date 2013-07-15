@@ -27,12 +27,12 @@ END
 CONFIG_DEFAULT = begin
   original_file = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
   repo_root = File.expand_path(File.dirname(original_file)+"/../")
-  { "host" => "my.host.here", #where the job is rsynced to and run
+  { "host" => "deploy@fox123", #where the job is rsynced to and run
     "repo_root" => repo_root, #full path to the repo you use, Twitter specific
     "cp" => ENV['CLASSPATH'] || "",
     "localmem" => "3g", #how much memory for java to use when running in local mode
     "namespaces" => { "abj" => "com.twitter.ads.batch.job", "s" => "com.twitter.scalding" },
-    "hadoop_opts" => { "mapred.reduce.tasks" => 20, #be conservative by default
+    "hadoop_opts" => { "mapred.reduce.tasks" => 100, #be conservative by default
                        "mapred.min.split.size" => "2000000000" }, #2 billion bytes!!!
     "depends" => [ "org.apache.hadoop/hadoop-core/0.20.2",
                    "org.slf4j/slf4j-log4j12/1.6.6",

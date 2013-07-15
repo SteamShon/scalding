@@ -1,0 +1,22 @@
+<classpath>
+  <classpathentry output="target/scala-2.9.2/classes" path="src/main/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.9.2/classes" path="src/main/java" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.9.2/test-classes" path="src/test/scala" kind="src"></classpathentry>
+  <classpathentry output="target/scala-2.9.2/test-classes" path="src/test/java" kind="src"></classpathentry>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/com.joestelmach/natty/jars/natty-0.7.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.mnode.ical4j/ical4j/bundles/ical4j-1.0.2.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.5.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/jars/backport-util-concurrent-3.1.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.scalacheck/scalacheck_2.9.2/jars/scalacheck_2.9.2-1.10.0.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.scala-tools.testing/specs_2.9.2/jars/specs_2.9.2-1.6.9.jar" kind="lib"></classpathentry>
+  <classpathentry path="/Users/shon/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.8.5.jar" kind="lib"></classpathentry>
+  <classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"></classpathentry>
+  <classpathentry path="bin" kind="output"></classpathentry>
+</classpath>
